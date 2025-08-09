@@ -7,9 +7,6 @@ import tagger from "@dhiwise/component-tagger";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(),tagger()],
-  build: {
-    outDir: "build",
-  },
   resolve: {
     alias: {
       '@': path.resolve('./src'),
