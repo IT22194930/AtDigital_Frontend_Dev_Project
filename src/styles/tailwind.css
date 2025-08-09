@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #faf7ff;
+    --global-bg-2: #ffffff;
+    --global-bg-3: #4f46e5;
+    --global-text-1: #000000;
+    --global-text-2: #4f46e5;
+    --global-text-3: #6e6b8f;
+    --global-text-4: #ffffff;
+
+    /* Header Colors */
+    --header-bg-1: #4f46e5;
+
+    /* Button Colors */
+    --button-bg-1: #f28d35;
+
+    /* Primary Colors */
+    --primary-background: #4f46e5;
+    --primary-foreground: #ffffff;
+    --primary-light: #6366f1;
+    --primary-dark: #3730a3;
+
+    /* Secondary Colors */
+    --secondary-background: #ffffff;
+    --secondary-foreground: #000000;
+    --secondary-light: #faf7ff;
+    --secondary-dark: #6e6b8f;
+
+    /* Accent Colors */
+    --accent-color: #f28d35;
+    --accent-foreground: #ffffff;
+    --accent-light: #fb923c;
+    --accent-dark: #ea580c;
+
+    /* Border Colors */
+    --border-primary: #e5e7eb;
+    --border-secondary: #d1d5db;
+    --border-light: #f3f4f6;
+    --border-dark: #6b7280;
+
+    /* Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #6e6b8f;
+    --text-muted: #9ca3af;
+    --text-accent: #4f46e5;
+
+    /* Background Colors */
+    --bg-main: #faf7ff;
+    --bg-card: #ffffff;
+    --bg-overlay: #e5e7ebe8;
+  }
+}
+
+@layer utilities {
+  /* Global */
+  .bg-global-1 {
+    background-color: var(--global-bg-1);
+  }
+  .bg-global-2 {
+    background-color: var(--global-bg-2);
+  }
+  .bg-global-3 {
+    background-color: var(--global-bg-3);
+  }
+  .text-global-1 {
+    color: var(--global-text-1);
+  }
+  .text-global-2 {
+    color: var(--global-text-2);
+  }
+  .text-global-3 {
+    color: var(--global-text-3);
+  }
+  .text-global-4 {
+    color: var(--global-text-4);
+  }
+
+  /* Header */
+  .bg-header-1 {
+    background-color: var(--header-bg-1);
+  }
+
+  /* Button */
+  .bg-button-1 {
+    background-color: var(--button-bg-1);
+  }
+}
